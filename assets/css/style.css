@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 20px 3%;
+    background: #28b6ee;
+}
+
+.section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row{
+    width: 300px;
+}
+
+figure img{
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 10px;
+}
